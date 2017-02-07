@@ -1,0 +1,159 @@
+body{
+  margin, padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  color: gray;
+  background:AliceBlue;
+}
+
+a {
+  color: #00B7FF;
+}
+
+form{
+  margin-bottom: 20px;
+}
+
+button.profile-button{
+  border-color:#3897f0;
+  color: #3897f0;
+  font-weight:bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: .5em;
+
+}
+
+button.profileinfo-button{
+  border-color:#3897f0;
+  color: #3897f0;
+  font-weight:bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: .7em;
+
+  margin: 0 0 20px 270px;
+  background:#fff;
+
+}
+
+figcaption{
+  padding-top:5px;
+  text-align:center;
+}
+
+.profileinfo-body{
+background: AliceBlue;
+}
+
+.instagram-icon{
+  vertical-align: middle;
+
+}
+
+.instagram-title{
+  font-family:cursive, serif;
+  margin-left:16px;
+}
+
+.search-box{
+  width:50%;
+  margin-bottom: 16px;
+}
+
+.description{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:200;
+  font-size:1.4em;
+  color: #3b3b3b;
+}
+
+.name{
+  font-weight:400;
+  font-size:1em;
+}
+
+.posts{
+  font-weight:400;
+  font-size:.9em;
+  color: gray;
+}
+
+.topbar{
+  border-bottom: 1px solid #ddd;
+  margin-bottom:40px;
+}
+
+
+.caption{
+  border:1px solid #ddd;
+  border-radius:75px;
+  margin-left:80px;
+}
+
+.caption-background{
+background:#fafafa;
+padding-top:20px
+}
+
+.captions-box{
+  margin:0 auto 50px auto;
+}
+
+.captions-box figure{
+  margin-top:40px;
+
+}
+
+.caption-images{
+  display:block;
+  margin: 0 auto;
+
+
+}
+
+.caption-text h1{
+  padding-left:10px;
+}
+
+.caption-text p{
+  padding-left:10px;
+}
+
+
+.caption-pic{
+  margin-bottom:35px;
+  padding: 0;
+}
+
+.caption-row h1{
+  padding-left:16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:400;
+  letter-spacing: .2em;
+}
+
+.polaroid-row{
+  margin:25px 0 100px 0;
+}
+
+.polaroid-top{
+  color:#3b3b3b;
+  background:#fff;
+  border:2px solid:#ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(153,153,153), -2px -2px 1px rgb(153,153,153);
+}
+
+.polaroid-top figcaption a{
+  color: gray;
+}
+
+.polaroid-top h1{
+  padding-top:20px;
+}
+
+.polaroid-image{
+  display:block;
+  margin:35px auto 20px auto;
+
+  vertical-align:middle;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <title>Instagram Viewer</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="container" >
+      <div class="row">
+          <div class="col-md-12 topbar">
+              <h1 class="instagram-title">
+                <img class="instagram-icon" src="/images/instagram_icon.png" class="pull-left" height="50" width="50"/>
+                Instagram Viewer
+              </h1>
+          </div>
+      </div>
+    </div>
+    <div class="container">
+    <div class="container caption-background">
+      <div class="row">
+        <div class="col-md-12">
+          <h3> Enter an instagram Username to see their latest posts.</h3>
+          <form action="/profilesearch" method="post" class="search-form">
+            <input type="text" class="form-control search-box"   name="username" placeholder="enter username" />
+            <input  type="submit" class="btn btn-success" />
+        	</form>
+        	<h3><span style="color:red">Warning</span>...the server will crash if you enter a username that does not exist.</h3>
+	        <a href="https://socialblade.com/instagram/top/100/followers" target="_blank" style="font-size:1.5em;">Click here for a List of Popular Instagram Usernames</a>
+	      </div>
+    	</div>
+  	</body>
+</html>
