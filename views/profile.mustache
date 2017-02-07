@@ -21,7 +21,6 @@
       </div>
       <div col-md-5>
         <button onClick=window.location.href="/" type="submit" class="btn btn-default" style="height:30px;float:right;margin-top:20px;color:#00B7FF;">Search Again</button>
-
       </div>
     </div>
     <div class="container caption-background" >
@@ -35,14 +34,12 @@
               <span class="name">{{fullname}}</span> -- Contact: {{username}}@gmail.com<br />
               <span class="posts">{{numposts}} posts</span>
             </p>
-
         </div>
       </div>
       <div class="row">
         <div class="col-md-12 captions-box">
           {{#data}}
             <figure style="width:300px" class="col-md-4">
-
               <a href="/profilesearch/{{username}}/{{code}}" target="_self">
                 <img  class="caption-images" src={{images.low_resolution.url}} alt="" />
               </a>
@@ -51,11 +48,8 @@
               </figcaption>
             </figure>
           {{/data}}
-
-
         </div>
         <button onClick=window.location.href="/" type="submit" class="btn btn-default" style="height:30px;margin-bottom:30px;color:#00B7FF;">Search Again</button>
       </div>
-
   </body>
 </html>
